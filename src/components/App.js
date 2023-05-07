@@ -1,10 +1,11 @@
 import React from "react";
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 import Header from './Header';
 import BeeList from './BeeList'
 import BeeHives from "./BeeHives";
 import Home from "./Home";
 import Flowers from "./Flowers";
+import Error404 from './Error404';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/beelist' element={<BeeList />} />
         <Route path='/beehives' element={<BeeHives />} />
         <Route path='/flowers' element={<Flowers />} />
+        <Route path="*" element={<Error404 />} />
       </Routes>
     </div>
   )
