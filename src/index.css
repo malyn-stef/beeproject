@@ -1,13 +1,152 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: "Indie Flower";
+  flex-wrap: wrap;
+  color-scheme: light;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+img.comb {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  top: 0%;
+  left: 0%;
+  z-index: -5;
+  opacity: 0.25;
+}
+
+header {
+  justify-content: center;
+  border: 2px solid rgb(8, 63, 22);
+  border-radius: 16px;
+  padding-bottom: 5px;
+
+}
+
+header h1 {
+  text-align: center;
+}
+
+
+
+.welcome {
+  margin-top: 35px;
+  text-align: center;
+}
+
+img.welcome {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 70%;
+  left: 40%;
+  z-index: 2;
+}
+
+img.flowergif {
+  position: absolute;
+  width: 15%;
+  height: 27%;
+  top: 70%;
+  left: 43%;
+  z-index: 1;
+}
+
+
+
+div.new-flower {
+  text-align: center;
+}
+
+div.new-flower form {
+  display: inline-block;
+}
+
+div.new-flower form input {
+  width: 300px;
+  height: 25px;
+  margin-right: 10px;
+  padding-left: 10px;
+  font-size: 120%;
+}
+
+
+
+.navbar {
+  text-align: center;
+  word-wrap: normal;
+}
+
+.navlink {
+  font-size: 150%;
+  color: green;
+  text-decoration: underline overline forestgreen;
+  padding-left: 100px;
+  white-space: pre-wrap;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border: 3px rgb(8, 63, 22);
+  border-radius: 16px;
+  border-style: ridge;
+  padding-left: 10px;
+  padding-right: 10px;
+  white-space: nowrap;
+  max-width: 310px;
+  max-height: max-content;
+  margin: 20px;
+
+}
+
+div.loading img {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 75%;
+  left: 48%;
+  margin: -128px 0 0 -128px;
+  z-index: 1000;
+}
+
+
+.card img {
+  margin-top: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 300px;
+  border: 5px solid goldenrod;
+  border-style: inset;
+  border-radius: 16px;
+}
+
+.card h4 {
+  padding-left: 20px;
+  font-size: 25px;
+  text-align: left;
+  font-style: bold;
+  color: brown;
+  text-shadow: #FC0 1px 0 10px;
+  margin-bottom: 0px;
+}
+
+.card p {
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.card ul li {
+  inline-size: 250px;
+  white-space: normal;
+  overflow-wrap: break-word;
+  padding-bottom: 5px;
 }
