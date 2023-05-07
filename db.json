@@ -1,0 +1,188 @@
+Skip to content
+Search or jump to…
+Pulls
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@malyn-stef 
+malyn-stef
+/
+my-project2
+Private
+Cannot fork because you own this repository and are not a member of any organizations.
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+More
+Beta Try the new code view
+my-project2/my-react-app/db.json
+
++ added error page
+Latest commit f1674ea last week
+ History
+ 0 contributors
+156 lines (156 sloc)  4.82 KB
+ 
+
+{
+  "bees": [
+    {
+      "id": 1,
+      "name": "bumblebee",
+      "image": "https://cdn.britannica.com/84/6984-004-19BE944C/Bumblebee.jpg?s=1500x700&q=85",
+      "climate": "temperate",
+      "size": "2 cm",
+      "features": [
+        "robust",
+        "hairy",
+        "black with orange/yellow bands"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "euglossine bee",
+      "image": "https://cdn.britannica.com/17/240817-050-B886E87E/green-orchid-bee-Euglossa.jpg",
+      "climate": "tropical",
+      "size": "3 cm",
+      "features": [
+        "shiny",
+        "metallic",
+        "dark green/blue or red/bronze"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "honeybee",
+      "image": "https://cdn.britannica.com/65/10965-120-A27B3EF7/Honeybee.jpg?s=1500x700&q=85",
+      "climate": "temperate",
+      "size": "1.2 cm",
+      "features": [
+        "produces 1 tablespoon of honey in lifetime",
+        "bristly",
+        "brown with yellow bands"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "carpenter bee",
+      "image": "https://cdn.britannica.com/95/124695-050-A7141E8E/Carpenter-bee.jpg",
+      "climate": "temperate",
+      "size": ".06 cm",
+      "features": [
+        "nests in plant stems/solid wood",
+        "metallic",
+        "mostly black with orange/yellow bands"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "leaf-cutter bees",
+      "image": "https://cdn.britannica.com/39/240439-050-C990E707/leafcutter-bee-Megachile.jpg",
+      "climate": "temperate",
+      "size": "2.4 cm",
+      "features": [
+        "collects pollen on abdomen",
+        "nests in soil, plant stalks, or wood and lines with leaves",
+        "dark-colored with several whitish hair bands across the abdomen"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "mining bee",
+      "image": "https://cdn.britannica.com/17/240417-050-D8B8AEC6/tawny-mining-bee.jpg",
+      "climate": "temperate",
+      "size": "2 cm",
+      "features": [
+        "excavates tunnels in soil to lay eggs",
+        "hairy",
+        "brown and reddish-golden"
+      ]
+    }
+  ],
+  "flowers": [
+    {
+      "id": 1,
+      "name": "Bee Balm",
+      "image": "https://images.squarespace-cdn.com/content/v1/5f7e43da4d593f18076b4d29/1608857823996-B77WDSVLQ4UFJDVYGPEI/Example+of+a+flowers+bees+like+-+bee+balm.jpg?format=1000w",
+      "season": "Spring"
+    },
+    {
+      "id": 2,
+      "name": "White Wild Indigo",
+      "image": "https://images.squarespace-cdn.com/content/v1/5f7e43da4d593f18076b4d29/1608857896047-5P9BT2LUPU0SB7CFLQO1/One+of+the+best+flowers+for+honey+bees+-+wild+indigo.jpg?format=1000w",
+      "season": "Spring"
+    },
+    {
+      "id": 3,
+      "name": "Purple Coneflower",
+      "image": "https://images.squarespace-cdn.com/content/v1/5f7e43da4d593f18076b4d29/1608858048041-TN0S9AZULYBFT825OMY2/Example+of+a+flower+bees+like+-+purple+cone+flower.jpg?format=1000w",
+      "season": "Late Spring, Summer"
+    },
+    {
+      "id": 4,
+      "name": "Black-eyed Susan",
+      "image": "https://images.squarespace-cdn.com/content/v1/5f7e43da4d593f18076b4d29/1608858171908-5DZA4AHRJTUMS4MK3ETY/Black+eyed+susan+-+a+flower+bees+like.jpg?format=1000w",
+      "season": "Summer"
+    }
+  ],
+  "hives": [
+    {
+      "id": 1,
+      "name": "Langstroth Hive",
+      "image": "https://completebeehives.com/wp-content/uploads/2020/03/Canva-Colorful-traditional-beehives-1536x1024.jpg",
+      "pros": [
+        "Easy to find and affordable",
+        "Parts are interchangeable and standard in size, making replacing parts easy",
+        "Produces a lot of honey",
+        "Can add on to it as the colony grows"
+      ],
+      "cons": [
+        "Heavy lifting is required – You have to remove the top supers to get to the brood box"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Top Bar Hive",
+      "image": "https://completebeehives.com/wp-content/uploads/2021/05/Ruche_horizontale_dans_un_jardin.jpg",
+      "pros": [
+        "No heavy lifting",
+        "More beeswax to make candles, lip balm, etc.",
+        "Hive is waist level, so no bending or crouching"
+      ],
+      "cons": [
+        "Because you cannot add on to a top bar hive, bee colonies cannot get that big ",
+        "Top bar hives yield less honey than other hives"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Warre Hive",
+      "image": "https://completebeehives.com/wp-content/uploads/2019/07/the-warre-hive-683x1024.jpg",
+      "pros": [
+        "Great for natural beekeeping",
+        "Requires little maintenance"
+      ],
+      "cons": [
+        "New boxes are added to the bottom of the hive"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Horizontal Hive",
+      "image": "https://completebeehives.com/wp-content/uploads/2019/07/the-long-horizontal-hive.jpg",
+      "pros": [
+        "No heavy lifting",
+        "Frames are interchangeable with Langstroth hive frames"
+      ],
+      "cons": [
+        "Can be difficult to find"
+      ]
+    }
+  ]
+}
