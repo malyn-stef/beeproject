@@ -97,6 +97,12 @@
       "name": "Black-eyed Susan",
       "image": "https://images.squarespace-cdn.com/content/v1/5f7e43da4d593f18076b4d29/1608858171908-5DZA4AHRJTUMS4MK3ETY/Black+eyed+susan+-+a+flower+bees+like.jpg?format=1000w",
       "season": "Summer"
+    },
+    {
+      "name": "Lavender",
+      "image": "https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSXs1QxM9Dh8HQ4jqzmniWXCZBxUu5pgY0y61By5dEBvo_6LTEtJ27fb6I0iLC1GgLt",
+      "season": "Spring",
+      "id": 5
     }
   ],
   "hives": [

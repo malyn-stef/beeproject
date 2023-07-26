@@ -8,7 +8,7 @@ function BeeHives() {
 
 
   useEffect(() => {
-    fetch('http://localhost:6001/hives')
+    fetch('http://localhost:3000/hives')
       .then(res => res.json())
       .then(data => getHives(data))
   }, [])

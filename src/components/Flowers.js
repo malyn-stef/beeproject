@@ -12,7 +12,7 @@ function Flowers() {
 
 
   useEffect(() => {
-    fetch('http://localhost:6001/flowers')
+    fetch('http://localhost:3000/flowers')
       .then(res => res.json())
       .then(data => getFlowers(data))
   }, [])
@@ -25,7 +25,7 @@ function Flowers() {
   }
   function handleSubmit(e) {
     e.preventDefault()
-    fetch('http://localhost:6001/flowers', {
+    fetch('http://localhost:3000/flowers', {
       method: 'POST',
       headers: {
         'Content-type': 'application/json'

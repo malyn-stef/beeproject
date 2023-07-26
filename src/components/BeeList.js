@@ -6,7 +6,7 @@ function BeeList() {
   const [beeList, setBees] = useState(null)
 
   useEffect(() => {
-    fetch('http://localhost:6001/bees')
+    fetch('http://localhost:3000/bees')
       .then(res => res.json())
       .then(data => setBees(data))
   }, [])
